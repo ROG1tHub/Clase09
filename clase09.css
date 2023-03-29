@@ -9,7 +9,7 @@ body{
   .col-admin{
     background-image: url("imagenes/img-login.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 70vh;
     width: 50%;
     margin-top: 20vh;
@@ -35,7 +35,7 @@ body{
         font-weight: 700;
         color: #C4C4C4;
         background-color: #E21982;
-        width: 90%;
+        width: 80%;
         border-radius: 20px;
       }
       input{
