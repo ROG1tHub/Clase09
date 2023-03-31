@@ -18,35 +18,41 @@
 
 <body>
   <div class="container">
-    <div class="row ">
-      <div class=" col-10 col-admin col-md-6 col-sm-12">
-        <img class="col logo" src="imagenes/logo-blanco.svg" alt="Image">
-      </div>
-      <div class="col-10 mt-6 col-login col-md-6 col-sm-12">
-        <h1 class=" col mt-5">Login</h1>
-        <div class="col email">
-          <div class="col input-email"><i class=" bi bi-envelope icono-email"></i><input type="email" class="col mt-5 p-2 campo-email" placeholder="email">
-          </div>
+    <div class="row g-0">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="img-relative">
+                <img src="imagenes/img-login.jpg" width="100%"/>
+                <img src="imagenes/logo-blanco.svg" class="img-absolute"/>
+            </div>
+
         </div>
-        <div class="col contrasenia">
-          <div class="col input-contrasenia"><i class="bi bi-lock"></i><input type="password" class="col p-2 mt-2 campo-contrasenia" placeholder="contraseña">
-          </div>
-        </div>
-        <div class="col text-end">
-          <a class="col  contra me-5" href="#">Olvidaste tu contraseña?</a>
-        </div>
-        <div class="col ingresar d-flex justify-content-center">
-          <button type="button" class="col btn-ingresar p-2 mt-5 mb-4 me-4 ms-4">Ingresar</button>
-        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div id="contenedor-login">
+                <h1 class=" col pt-5 ms-4">Login</h1>
+                <div class="col email">
+                    <div class="col input-email"><i class=" bi bi-envelope ms-4"></i><input id = "mail" type="email" class="col mt-5 p-2" placeholder="email">
+                    </div>
+            </div>
+            <div class="col contrasenia">
+      <div class="col input-contrasenia"><i id = "contrasenia" class="bi bi-lock ms-4"></i><input id = "contrasenia" type="password" class="col p-2 mt-2" placeholder="contraseña">
       </div>
     </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js "
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
-  </script>
+    <div class="col text-end">
+      <a class="col  contra me-5" href="#">Olvidaste tu contraseña?</a>
+    </div>
+    <div class="col ingresar d-flex justify-content-center">
+        <button id="boton-ingresar" type="button" class="col btn-ingresar p-2 mt-5 mb-4 me-4 ms-4">Ingresar</button>
+      </div>
+        </div>
+    </div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js "
+integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+</script>
 </body>
 
 </html>
